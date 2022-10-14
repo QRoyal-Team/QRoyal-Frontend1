@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.dropbtn {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 5px;
+    color: rgb(240, 222, 124);
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: black;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+ }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  .dropdown-content a:hover {background-color: rgb(240, 222, 124);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:rgb(240, 222, 124);
+}
+
+.container-fluid{
+    padding: 60px 50px;
+    background: #e0dc92;
+  }
+  .bg-grey {
+    margin-top: 40px;
+    background-color: rgb(240, 222, 124);
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+
+  .jumbotron {
+    background: #e0dc92;
+  }
+
+  .card-img-top{
+    width: 100%;
+  }
+
+  .h-100 {
+    margin-top: 20px;
+    background-color:rgb(240, 222, 124) ;
+  }
+
+  .card-body{
+    text-align: center;
+    background-color: #e0dc92;
+}
+
+  .btn1{
+    background: #e0dc92;
+    width: auto;
+    display: inline-block;
+    padding: 10px 30px;
+    margin:  10px;
+    font-size: 18px;
+    font-weight: 50;
+    transition: all 0.3s ease;
+}
+
+.btn1:hover{
+    background: yellowgreen;
+}
+
+.text-center{
+  margin-top: 60px;
+  background: #e0dc92;
+}
