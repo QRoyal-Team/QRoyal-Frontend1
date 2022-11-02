@@ -4,6 +4,11 @@
   font-family: sans-serif;
 }
 
+.navbar-nav{
+  list-style-type: none;
+  display: flex;
+}
+
 .dropbtn {
   display: inline-block;
   padding: 10px 30px;
@@ -99,10 +104,7 @@
   background: yellowgreen;
 }
 
-.text-center{
-margin-top: 60px;
-background: #e0dc92;
-}
+.text-center{margin-top: 60px;background: #83e7bd;}
 
 #toggle{
   background: black;
