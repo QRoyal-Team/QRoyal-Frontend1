@@ -200,10 +200,7 @@ input:checked + .slider:before {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-body{margin-top:20px;
-    background-color:#f2f6fc;
-    color:#69707a;
-    }
+
     .img-account-profile {
         height: 10rem;
     }

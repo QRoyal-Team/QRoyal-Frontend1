@@ -88,7 +88,7 @@ $(function() {
 
 function dieu_huong(){
 	setTimeout(function() {	
-		location.assign("http://127.0.0.1:5500/OTP.html#");
+		location.assign("http://127.0.0.1:5500/extra/OTP.html");
 		}, 4500);
 }
 
